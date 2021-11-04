@@ -1,0 +1,61 @@
+.App{
+  text-align: center;
+ }
+ 
+ img{
+   width: 200px;
+   height: 200px;
+   border-radius: 20px;
+ }
+
+ .wrapperHead{
+   display: flex;
+   border: 3px solid black;
+   justify-content: center;
+ }
+
+ .title{
+   flex: 1;
+ }
+
+ .wrapper {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   width: 100%;
+   margin: 0 auto;
+ }
+ 
+ .wrapperCat{
+   width: 40%;
+ }
+ 
+ .wrapperBeng{
+   border: 1px solid black;
+   border-radius:20px;
+   margin: 20px;
+    background: linear-gradient(45deg, hsla(287, 23%, 65%, 1) 0%, hsla(23, 64%, 75%, 1) 100%);
+ }
+
+ .basketImg {
+   width:50px;
+   height:50px;
+ }
+
+ .cart{
+   display: block;
+   width:25%;
+   border:1px solid black;
+   border-radius:20px;
+ }
+ 
+ .pagewrapper{
+ display: flex;
+ }
+
+ .cart-item{
+   list-style: none;
+   justify-content: space-between;
+   padding-right: 20px;
+   display:flex;
+ }
